@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Kauã Silva Valadares</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<header>
+    <a href="#" class="logo">Kauã</a>
+    <nav>
+        <a href="#" class="active" onclick="changeContent('home', this)">Home</a>
+        <a href="#" onclick="changeContent('skills', this)">Skills</a>
+        <a href="#" onclick="changeContent('education', this)">Educação</a>
+        <a href="#" onclick="changeContent('experience', this)">Experiência</a>
+        <a href="#" onclick="changeContent('contact', this)">Contato</a>
+    </nav>
+</header>
+
+<section class="home">
+    <div class="home-img">
+        <img src="../image.png" alt="Foto de Kauã Silva Valadares">
+    </div>
+
+    <div class="home-content">
+        <h1 id="main-title">Oi, eu sou <span>Kauã</span></h1>
+        <h3 id="main-subtitle">Estudante de Sistemas de Informação</h3>
+        <p id="main-text">
+            Sou estudante e entusiasta de tecnologia, com foco em desenvolvimento web e aprendizado contínuo.
+            Tenho experiência com HTML, CSS, JavaScript, Node.js e sistemas ERP como o TOTVS Protheus.
+        </p>
+
+        <div class="social-icons">
+            <a href="https://github.com/Kauasv" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/kauã-silva-valadares-76b486303" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
